@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Identity Management</h1>
+        <!-- Form to add document hash -->
+        <form id="addDocumentForm">
+            <label for="documentHash">Document Hash:</label>
+            <input type="text" id="documentHash" required>
+            <button type="submit">Add Document</button>
+        </form>
+        <!-- Display added documents -->
+        <div id="documentList">
+            <h2>Document List:</h2>
+            <ul id="documents"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
